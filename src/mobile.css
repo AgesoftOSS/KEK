@@ -1,0 +1,41 @@
+@media only screen and (max-width: 500px) {
+
+    /*----------------------------------------o
+    |                  Display                |
+    o--------------------------------------- */
+
+    .mobile_flex {
+        display: flex;
+    }
+
+    .mobile_grid-2 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .mobile_grid-3 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .mobile_grid-4 {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+
+    /*----------------------------------------o
+    |                  Font                   |
+    o--------------------------------------- */
+
+    .mobile_center {
+        text-align: center;
+    }
+
+    .mobile_text-right {
+        text-align: right;
+    }
+
+    .mobile_text-left {
+        text-align: left;
+    }
+}

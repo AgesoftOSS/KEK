@@ -1,0 +1,157 @@
+@import url("./mobile.css");
+
+/*----------------------------------------o
+|                  Root                   |
+o--------------------------------------- */
+
+:root {
+
+    /* Colors */
+
+    --RedBoxFore: #fa4141;
+    --RedBoxBack: #7d2020;
+
+    --GreenBoxFore: #1dc46b;
+    --GreenBoxBack: #146138;
+
+    --BlueBoxFore: #3083ff;
+    --BlueBoxBack: #103f85;
+
+    --YellowBoxFore: #ceff52;
+    --YellowBoxBack: #615914;
+
+    /* BorderTypes */
+
+    --borderRound: 69px;
+    --borderAlmostRound: 17px;
+    --borderSoftRound: 7px;
+}
+
+/*----------------------------------------o
+|                  Boxes                  |
+o--------------------------------------- */
+
+.box {
+    padding: 10px;
+    margin: 0px 50px;
+    border-radius: var(--borderSoftRound);
+}
+
+.green_box {
+    background: var(--GreenBoxBack);
+    color: var(--GreenBoxFore);
+    border: solid 2px var(--GreenBoxFore)
+}
+
+.red_box, .error_box {
+    background: var(--RedBoxBack);
+    color: var(--RedBoxFore);
+    border: solid 2px var(--RedBoxFore);
+}
+
+.blue_box, .information_box, .info_box {
+    background: var(--BlueBoxBack);
+    color: var(--BlueBoxFore);
+    border: solid 2px var(--BlueBoxFore);
+}
+
+.yellow_box, .warning_box, .warn_box {
+    background: var(--YellowBoxBack);
+    color: var(--YellowBoxFore);
+    border: solid 2px var(--YellowBoxFore);
+}
+
+/*----------------------------------------o
+|              Font Propeties             |
+o--------------------------------------- */
+
+.centre {
+    text-align: center;
+}
+
+.font_mono {
+    font-family: monospace;
+}
+
+.font_serif {
+    font-family: serif;
+}
+
+.font_sans {
+    font-family: sans-serif;
+}
+
+.font_system {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.font-b {
+    font-weight: bold;
+}
+
+/*----------------------------------------o
+|                  Margin                 |
+o--------------------------------------- */
+
+.m-10 {
+    margin: 10px;
+}
+
+.m-20 {
+    margin: 20px;
+}
+
+.m-30 {
+    margin: 30px;
+}
+
+.m-40 {
+    margin: 40px;
+}
+
+/* Vertical */
+
+.mv-10 {
+    margin: 10px 0px;
+}
+
+.mv-20 {
+    margin: 20px 0px;
+}
+
+.mv-30 {
+    margin: 30px 0px;
+}
+
+.mv-40 {
+    margin: 40px 0px;
+}
+
+/* Horizontal */
+
+.mh-10 {
+    margin: 0px 10px;
+}
+
+.mh-20 {
+    margin: 0px 20px;
+}
+
+.mh-30 {
+    margin: 0px 30px;
+}
+
+.mh-40 {
+    margin: 0px 40px;
+}
+
+/*----------------------------------------o
+|                  Button                 |
+o--------------------------------------- */
+
+.roundbtn {
+    text-decoration: none;
+    border: none;
+    border-radius: var(--borderRound);
+    padding: 10px 25px;
+}
