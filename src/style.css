@@ -25,6 +25,10 @@ o--------------------------------------- */
     --borderRound: 69px;
     --borderAlmostRound: 17px;
     --borderSoftRound: 7px;
+
+    /* transitions */
+
+    --DefaultTransitionTime: 0.2s;
 }
 
 /*----------------------------------------o
@@ -154,4 +158,16 @@ o--------------------------------------- */
     border: none;
     border-radius: var(--borderRound);
     padding: 10px 25px;
+}
+
+/*----------------------------------------o
+|                  Hover                  |
+o--------------------------------------- */
+
+.darkerHover {
+    transition: var(--DefaultTransitionTime);
+}
+
+.darkerHover:hover {
+    opacity: 70%;
 }
