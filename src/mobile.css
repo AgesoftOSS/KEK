@@ -5,22 +5,22 @@
     o--------------------------------------- */
 
     .mobile_flex {
-        display: flex;
+        display: flex !important;
     }
 
     .mobile_grid-2 {
-        display: grid;
-        grid-template-columns: auto auto;
+        display: grid !important;
+        grid-template-columns: auto auto !important;
     }
 
     .mobile_grid-3 {
-        display: grid;
-        grid-template-columns: auto auto auto;
+        display: grid !important;
+        grid-template-columns: auto auto auto !important;
     }
 
     .mobile_grid-4 {
-        display: grid;
-        grid-template-columns: auto auto auto auto;
+        display: grid !important;
+        grid-template-columns: auto auto auto auto !important;
     }
 
     /*----------------------------------------o
@@ -28,14 +28,42 @@
     o--------------------------------------- */
 
     .mobile_center {
-        text-align: center;
+        text-align: center !important;
     }
 
     .mobile_text-right {
-        text-align: right;
+        text-align: right !important;
     }
 
     .mobile_text-left {
-        text-align: left;
+        text-align: left !important;
+    }
+
+    /*----------------------------------------o
+    |                 Display                 |
+    o--------------------------------------- */
+
+    .desktop_only {
+        display: none !important;
+    }
+
+    /*----------------------------------------o
+    |                 Margin                  |
+    o--------------------------------------- */
+
+    .md-1 {
+        margin: 10px !important;
+    }
+
+    .md-2 {
+        margin: 20px !important;
+    }
+
+    .md-3 {
+        margin: 30px !important;
+    }
+
+    .md-4 {
+        margin: 40px !important;
     }
 }

@@ -1,6 +1,6 @@
 # KEK (Kreative Einfacher Kasten)
 
-**KEK** Is a CSS Framework inspired and based on tailwindCSS But reduced and with **presets!**
+**KEK** Is a CSS Framework inspired by TailwindCSS but the javascript is removed and there's more device specfic styles.
 
 # Features
 
