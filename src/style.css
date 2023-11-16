@@ -73,12 +73,24 @@ o--------------------------------------- */
 }
 
 /*----------------------------------------o
-|              Font Propeties             |
+|              Alignment                  |
 o--------------------------------------- */
 
 .centre {
     text-align: center !important;
 }
+
+.al-left {
+    text-align: left !important;
+}
+
+.al-right {
+    text-align: right !important;
+}
+
+/*----------------------------------------o
+|              Font Propeties             |
+o--------------------------------------- */
 
 .font_mono {
     font-family: monospace !important;
@@ -181,20 +193,88 @@ o--------------------------------------- */
 o--------------------------------------- */
 
 .roundbtn {
-    text-decoration: none;
-    border: none;
-    border-radius: var(--borderRound);
-    padding: 10px 25px;
+    text-decoration: none !important;
+    border: none !important;
+    border-radius: var(--borderRound) !important;
+    padding: 10px 25px !important;
 }
 
 /*----------------------------------------o
 |                  Hover                  |
 o--------------------------------------- */
 
-.darkerHover {
+.hover-darker {
     transition: var(--DefaultTransitionTime) !important;
 }
 
-.darkerHover:hover {
-    opacity: 70%;
+.hover-darker {
+    opacity: 70% !important;
+}
+
+/*----------------------------------------o
+|            Background Color             |
+o--------------------------------------- */
+
+.bg-color-black-100 {
+    background: rgb(100, 100, 100) !important;
+}
+
+.bg-color-black-90 {
+    background: rgb(90, 90, 90) !important;
+}
+
+.bg-color-black-80 {
+    background: rgb(80, 80, 80) !important;
+}
+
+.bg-color-black-70 {
+    background: rgb(70, 70, 70) !important;
+}
+
+.bg-color-black-60 {
+    background: rgb(60, 60, 60) !important;
+}
+
+.bg-color-black-50 {
+    background: rgb(50, 50, 50) !important;
+}
+
+.bg-color-black-40 {
+    background: rgb(40, 40, 40) !important;
+}
+
+.bg-color-black-35 {
+    background: rgb(35, 35, 35) !important;
+}
+
+.bg-color-black-30 {
+    background: rgb(30, 30, 30) !important;
+}
+
+.bg-color-black-25 {
+    background: rgb(25, 25, 25) !important;
+}
+
+.bg-color-black-20 {
+    background: rgb(20, 20, 20) !important;
+}
+
+.bg-color-black-15 {
+    background: rgb(15, 15, 15) !important;
+}
+
+.bg-color-black-10 {
+    background: rgb(10, 10, 10) !important;
+}
+
+/*----------------------------------------o
+|            Foreground Color             |
+o--------------------------------------- */
+
+.text-white {
+    color: white !important;
+}
+
+.text-black {
+    color: black !important;
 }
