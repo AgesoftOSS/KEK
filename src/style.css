@@ -1,5 +1,5 @@
 /*----------------------------------------o
-|         (c) AgesoftOSS 2023             |
+|         (c) AgesoftOSS 2024             |
 o--------------------------------------- */
 
 @import url("./mobile.css");
@@ -76,11 +76,11 @@ o--------------------------------------- */
 |              Alignment                  |
 o--------------------------------------- */
 
-.centre {
+.centre, .font_center {
     text-align: center !important;
 }
 
-.align-left {
+.align-left, .left-align {
     text-align: left !important;
 }
 
@@ -126,6 +126,19 @@ o--------------------------------------- */
 
 .display-table, .table {
     display: table !important;
+}
+
+.inline-flex {
+    display: inline-flex !important;
+}
+
+/*----------------------------------------o
+|                 Centre                  |
+o--------------------------------------- */
+
+.vert-centre {
+    display: flex !important;
+    align-items: center !important;
 }
 
 /*----------------------------------------o
@@ -208,6 +221,13 @@ o--------------------------------------- */
     margin: 0px 60px !important;
 }
 
+/* Top */
+
+.m-top-10 {
+    margin-top: 10px !important;
+}
+
+
 /*----------------------------------------o
 |                Padding                  |
 o--------------------------------------- */
@@ -242,6 +262,13 @@ o--------------------------------------- */
 
 .p-8, .pad-8 {
     padding: 80px !important;
+}
+
+/* Padding Vertical */
+
+.pad-y-4 {
+    padding-bottom: 1.875rem !important;
+    padding-top: 1.875rem !important;
 }
 
 /*----------------------------------------o
